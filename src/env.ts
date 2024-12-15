@@ -4,6 +4,7 @@ const envSchema = z.object({
   PORT: z.coerce.number().default(3000),
   MODE: z.string().default("development"),
   USER_TABLE_RESET_ENDPOINT: z.string().optional().default(""),
+  USER_GET_ALL_ENDPOINT: z.string().optional().default(""),
   ADMIN_SECRET: z.string(),
 });
 

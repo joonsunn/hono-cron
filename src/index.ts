@@ -36,7 +36,8 @@ export default {
       });
 
       const result = await fetch(newRequest);
-      console.log(`${new Date(controller.scheduledTime)} - Reset table cron job status: ${result.status}`);
+      console.log(`${new Date(controller.scheduledTime)} - Test user cron job status: ${result.status}`);
+      console.log(await result.json());
     };
 
     switch (controller.cron) {

@@ -2,6 +2,8 @@ name = "hono-cron"
 main = "src/index.ts"
 compatibility_date = "2024-12-15"
 
+keep_vars = true
+
 # compatibility_flags = [ "nodejs_compat" ]
 
 # services = [

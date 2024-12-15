@@ -1,5 +1,5 @@
 {
-  "name": "hono2",
+  "name": "hono-cron",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify"
